@@ -1,10 +1,10 @@
-#include <iostream>
-
-int main(){
-// add the code to output the string "Hello World!"
-	cout << "Hello World!";  // 
-	cout << "Hello Again World";
-	cout << "Hello a third time World";
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World!" <<endl;  
+	cout << "Hello Again World" <<endl;
+	cout << "Hello a third time World" <<endl;
 	cout << "please enter a message: \n";
 	string message;
 	cin >> message;
